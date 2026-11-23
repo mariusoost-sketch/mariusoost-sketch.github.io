@@ -1,13 +1,14 @@
-# CUSP Strategic Foresight — website
+# CUSiP — website
 
-A one-page static site for Dr Marius Oosthuizen / CUSP. Plain HTML, CSS and a few lines of vanilla JavaScript.
+A one-page static site for Dr Marius Oosthuizen / CUSiP. Plain HTML, CSS and a few lines of vanilla JavaScript.
+The wordmark is CUSiP: a small lowered i (for intelligence) between S and P. The name is spoken CUSP. The primary line is “CUSP harnesses super intelligence to augment human foresight”; the purpose line is “shaping fairer futures”.
 No build step, no frameworks, no tracking, no external requests (fonts are self-hosted). It costs nothing to host.
 
 ## What's in the folder
 
 ```
 index.html                 the whole site (all sections and text live here)
-assets/css/styles.css      colours, fonts and layout (CUSP palette at the top in :root)
+assets/css/styles.css      colours, fonts and layout (palette at the top in :root; the wordmark i uses --brand-i / --brand-i-on-dark)
 assets/js/main.js          mobile menu + the "Send an enquiry" email builder
 assets/fonts/              Montserrat (headings) and Nunito (body), SIL Open Font Licence
 assets/img/                headshot, cone of plausibility, foresight-to-strategy visual,
@@ -36,7 +37,7 @@ tools/                     og.html (source of og-image.png) and shoot.py (screen
   or change them to past tense.
 - **Link previews (WhatsApp, LinkedIn, X)**: once the site has its final address, replace
   `assets/img/og-image.png` in the `og:image` and `twitter:image` tags with the full address
-  (e.g. `https://cusp.netlify.app/assets/img/og-image.png`) and uncomment the `canonical` line.
+  (e.g. `https://mariusoost-sketch.github.io/assets/img/og-image.png`). The canonical URL is already set.
 - **LinkedIn**: not included, because no profile URL was found in the source files. To add it, put
   `<li><a href="https://www.linkedin.com/in/YOUR-HANDLE/" rel="noopener">LinkedIn</a></li>` in the footer list
   and add the URL to `"sameAs"` in the JSON-LD block in the `<head>`.

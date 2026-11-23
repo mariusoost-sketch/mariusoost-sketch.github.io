@@ -1,4 +1,4 @@
-// CUSP site: mobile menu, header shadow, and the mailto enquiry builder. No tracking, no external calls.
+// CUSiP site: mobile menu, header shadow, and the mailto enquiry builder. No tracking, no external calls.
 (function () {
   var EMAIL = 'mariusoost@gmail.com';
   var header = document.querySelector('.site-header');
@@ -36,7 +36,7 @@
         'Organisation: ' + org,
         'Date and location: ' + v('when'), '',
         v('message'), '',
-        '(Sent via the CUSP website)'
+        '(Sent via the CUSiP website)'
       ].join('\n');
       window.location.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
     });

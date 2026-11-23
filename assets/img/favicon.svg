@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CUSiP">
   <rect width="64" height="64" rx="14" fill="#0B2447"/>
-  <path d="M14 32 L50 16 L50 48 Z" fill="#3E9BB0" opacity=".55"/>
-  <path d="M14 32 L50 22 L50 42 Z" fill="#7DC3C6" opacity=".7"/>
-  <circle cx="14" cy="32" r="6" fill="#fff"/>
-  <line x1="14" y1="32" x2="46" y2="22" stroke="#E8452C" stroke-width="3.5" stroke-linecap="round"/>
-  <circle cx="47" cy="22" r="5" fill="#E8452C" stroke="#fff" stroke-width="2"/>
+  <!-- CUSiP wordmark: small lowered i between S and P -->
+  <text x="7" y="36" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#ffffff" letter-spacing="1.4">CUS</text>
+  <text x="40.2" y="43" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="8" fill="#3ee0d0">i</text>
+  <text x="45.2" y="36" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="16" fill="#ffffff">P</text>
 </svg>
